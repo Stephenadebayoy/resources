@@ -1,6 +1,6 @@
 /** @format */
 
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Flex, Box, Text, Switch, Link, Image } from "@chakra-ui/react";
 import { IoIosMenu } from "react-icons/io";
