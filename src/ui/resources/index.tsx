@@ -65,7 +65,7 @@ const Resources = () => {
             px={"16px"}
             startElement={
               <Box px={"14px"}>
-                <LuSearch />
+                <LuSearch color={isDark ? "white" : "#4F4F4F"} />
               </Box>
             }
           >
