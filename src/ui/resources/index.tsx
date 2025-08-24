@@ -77,7 +77,7 @@ const Resources = () => {
               fontFamily={"Inter"}
               fontSize={{ base: "16px", lg: "14px" }}
               fontWeight={"normal"}
-              color={"#4F4F4F"}
+              color={isDark ? "white" : "#4F4F4F"}
             />
           </InputGroup>
         </Box>
