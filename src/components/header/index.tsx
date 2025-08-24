@@ -195,19 +195,14 @@ const Header = () => {
           transform={openNav ? "translateY(0)" : "translateY(-200px)"}
         >
           {pages.map((page) => (
-            <Link
-              as={NavLink}
-              padding={"10px"}
-              color={"#2C3237"}
-              fontFamily={"Poppins"}
-              fontSize={{ base: "14px", md: "16px" }}
-              transition="background-color ease-in-out 0.1s"
-              _hover={{ bg: "#314EF9", color: "white", textDecoration: "none" }}
-              key={page.page}
+            <a
+              key={page.path}
               href={page.path}
+              color={isDark ? "white" : "#2C3237"}
+              style={{ padding: 10 }}
             >
               {page.page}
-            </Link>
+            </a>
           ))}
         </Box>
         {openNav && (
