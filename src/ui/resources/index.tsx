@@ -10,11 +10,9 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { GrDocumentPdf } from "react-icons/gr";
-
 import { LuSearch } from "react-icons/lu";
 import { IoFilterSharp } from "react-icons/io5";
 import { GoVideo } from "react-icons/go";
-
 import { useDarkMode } from "../../hooks/use-dark-mode-provider/use-dark-mode";
 import GridcardsInner from "../../components/grid-cards-inner";
 import SideCheckbox from "../../components/side-check-box";
@@ -153,7 +151,7 @@ const Resources = () => {
               >
                 <Box position={"relative"} w={"100%"} margin={"auto"}>
                   <GridcardsInner
-                    image={IoIosLink}
+                    icon={IoIosLink}
                     title="The ultimate guide to Workplace Chat"
                     info="Sample Topic"
                     filterCheck="Sense of Appreciation"
@@ -168,7 +166,7 @@ const Resources = () => {
                 </Box>
                 <Box position={"relative"} w={"100%"} margin={"auto"}>
                   <GridcardsInner
-                    image={GoVideo}
+                    icon={GoVideo}
                     title="The ultimate guide to Workplace Chat"
                     info="Sample Topic"
                     filterCheck="Secure Base"
@@ -184,7 +182,7 @@ const Resources = () => {
                 </Box>
                 <Box position={"relative"} w={"100%"} margin={"auto"}>
                   <GridcardsInner
-                    image={IoIosLink}
+                    icon={IoIosLink}
                     title="The ultimate guide to Workplace Chat"
                     info="Sample Topic"
                     filterCheck="Learning Organisation"
@@ -201,7 +199,7 @@ const Resources = () => {
                 </Box>
                 <Box position={"relative"} w={"100%"} margin={"auto"}>
                   <GridcardsInner
-                    image={GoVideo}
+                    icon={GoVideo}
                     title="Taking stock of mental health in your workplace"
                     info="Sample Topic"
                     filterCheck="Mission and Vision"
@@ -216,7 +214,7 @@ const Resources = () => {
                 </Box>
                 <Box position={"relative"} w={"100%"} margin={"auto"}>
                   <GridcardsInner
-                    image={GrDocumentPdf}
+                    icon={GrDocumentPdf}
                     title="The ultimate guide to Workplace Chat"
                     info="Sample Topic"
                     filterCheck="Learning Organisation"
@@ -233,7 +231,7 @@ const Resources = () => {
                 </Box>
                 <Box position={"relative"} w={"100%"} margin={"auto"}>
                   <GridcardsInner
-                    image={GrDocumentPdf}
+                    icon={GrDocumentPdf}
                     title="Taking stock of mental health in your workplace"
                     info="Sample Topic"
                     filterCheck="Mission and Vision"

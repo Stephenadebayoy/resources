@@ -3,27 +3,7 @@
 import { Box, Flex, Text, VStack } from "@chakra-ui/react";
 import { useDarkMode } from "../../hooks/use-dark-mode-provider/use-dark-mode";
 import CheckBoxRe from "../check-box";
-
-const checkboxSections = [
-  {
-    title: "Key Foundational Principles",
-    items: [
-      "Secure Base",
-      "Sense of Appreciation",
-      "Learning Organisation",
-      "Mission and Vision",
-      "Wellbeing",
-    ],
-  },
-  {
-    title: "Document Type",
-    items: ["DOC", "Link", "PDF", "Video"],
-  },
-  {
-    title: "Categories",
-    items: ["Sample", "Sample", "Sample", "Sample", "Sample"],
-  },
-];
+import { checkboxSections } from "../../constants/data";
 
 const SideCheckbox = () => {
   const { isDark } = useDarkMode();

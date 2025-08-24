@@ -3,15 +3,8 @@
 import { Box, Button, Card } from "@chakra-ui/react";
 import { useDarkMode } from "../../hooks/use-dark-mode-provider/use-dark-mode";
 
-type GridcardsInnerProps = {
-  image: any;
-  title: string;
-  info: string;
-  filterCheck: string;
-};
-
 const GridcardsInner = ({
-  image,
+  icon,
   title,
   info,
   filterCheck,
@@ -31,9 +24,9 @@ const GridcardsInner = ({
       borderColor={"white"}
     >
       <Card.Body>
-        {image && (
+        {icon && (
           <Box
-            as={image}
+            as={icon}
             color={isDark ? "white" : "black"}
             boxSize="6"
             mt="60px"
